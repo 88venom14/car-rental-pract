@@ -1,0 +1,34 @@
+test_category_crud (tests.test_integration.DatabaseIntegrationTests.test_category_crud) ... skipped 'Требуется CAR_RENTAL_RUN_INTEGRATION=1 и схема rental_test'
+test_income_report_includes_closed_rental (tests.test_integration.DatabaseIntegrationTests.test_income_report_includes_closed_rental) ... skipped 'Требуется CAR_RENTAL_RUN_INTEGRATION=1 и схема rental_test'
+test_rental_creation_and_overlapping_period_rejection (tests.test_integration.DatabaseIntegrationTests.test_rental_creation_and_overlapping_period_rejection) ... skipped 'Требуется CAR_RENTAL_RUN_INTEGRATION=1 и схема rental_test'
+test_return_and_cancellation (tests.test_integration.DatabaseIntegrationTests.test_return_and_cancellation) ... skipped 'Требуется CAR_RENTAL_RUN_INTEGRATION=1 и схема rental_test'
+test_adjacent_periods_do_not_overlap (tests.test_services.ServiceTests.test_adjacent_periods_do_not_overlap) ... ok
+test_cost_for_four_days (tests.test_services.ServiceTests.test_cost_for_four_days) ... ok
+test_early_return_cost_uses_actual_days (tests.test_services.ServiceTests.test_early_return_cost_uses_actual_days) ... ok
+test_invalid_cost_date_order (tests.test_services.ServiceTests.test_invalid_cost_date_order) ... ok
+test_overdue_rate_is_one_and_half (tests.test_services.ServiceTests.test_overdue_rate_is_one_and_half) ... ok
+test_overlapping_periods (tests.test_services.ServiceTests.test_overlapping_periods) ... ok
+test_rental_days_minimum_is_one (tests.test_services.ServiceTests.test_rental_days_minimum_is_one) ... ok
+test_single_day_rentals_overlap_on_same_day (tests.test_services.ServiceTests.test_single_day_rentals_overlap_on_same_day) ... ok
+test_date_range_rejects_reverse (tests.test_services.ValidatorTests.test_date_range_rejects_reverse) ... ok
+test_email (tests.test_services.ValidatorTests.test_email) ... ok
+test_email_rejects_bad_address (tests.test_services.ValidatorTests.test_email_rejects_bad_address) ... ok
+test_iso_date (tests.test_services.ValidatorTests.test_iso_date) ... ok
+test_iso_date_rejects_bad_format (tests.test_services.ValidatorTests.test_iso_date_rejects_bad_format) ... ok
+test_passport (tests.test_services.ValidatorTests.test_passport) ... ok
+test_passport_rejects_bad_format (tests.test_services.ValidatorTests.test_passport_rejects_bad_format) ... ok
+test_phone (tests.test_services.ValidatorTests.test_phone) ... ok
+test_phone_rejects_letters (tests.test_services.ValidatorTests.test_phone_rejects_letters) ... ok
+test_plate (tests.test_services.ValidatorTests.test_plate) ... ok
+test_plate_rejects_bad_format (tests.test_services.ValidatorTests.test_plate_rejects_bad_format) ... ok
+test_positive_number (tests.test_services.ValidatorTests.test_positive_number) ... ok
+test_positive_number_rejects_zero (tests.test_services.ValidatorTests.test_positive_number_rejects_zero) ... ok
+test_required (tests.test_services.ValidatorTests.test_required) ... ok
+test_required_rejects_empty (tests.test_services.ValidatorTests.test_required_rejects_empty) ... ok
+test_year (tests.test_services.ValidatorTests.test_year) ... ok
+test_year_rejects_out_of_range (tests.test_services.ValidatorTests.test_year_rejects_out_of_range) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.002s
+
+OK (skipped=4)
